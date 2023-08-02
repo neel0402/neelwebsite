@@ -1,0 +1,20 @@
+.foodimage{
+    position: relative;
+    overflow: hidden;
+}
+.foodimage .foodtext{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFA41F;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+.foodimage:hover .foodtext{
+    height: 20%;
+}
